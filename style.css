@@ -1,0 +1,207 @@
+*{
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper{
+  border: 1px solid #E0E0E0;
+  border-radius: 6px;
+  width: 260px;
+  height: 250px;
+  display: flex;
+}
+
+
+
+.top_sale{
+  background-color: #8D58E3;
+  text-transform: uppercase;
+  z-index: 1000;
+  position: absolute;
+  display: block;
+  top: 19px;
+  left: 19px;
+  width: auto;
+  line-height: 2px;
+  border-radius: 4px;
+  padding: 0 5px 0 5px;
+  color: white;
+  font-size: 10px;
+}
+
+.discount{
+  text-transform: uppercase;
+  background-color: #E95471;
+  display: block;
+  position: absolute;
+  z-index: 1000;
+  top: 45px;
+  left: 19px;
+  width: auto;
+  line-height: 2px;
+  border-radius: 4px;
+  padding: 0 5px 0 5px;
+  color: white;
+  font-size: 10px;
+}
+
+
+.picture{
+  width: 260px;
+  height: 250px;
+}
+
+.button_heart{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 3px;
+  opacity: 30%;
+}
+
+.button{
+  opacity: 80%;
+  background-color: white;
+  position: absolute;
+  border: none;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  left: 222px;
+  opacity: 30%;
+  top: 10px;
+  z-index: 1000;
+  transition: all .2s linear;
+}
+
+.button:hover{
+  box-shadow: 0 3px 3px #E7E7E7;
+  opacity: 100%;
+}
+
+.dog_pic{
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.dog_icon{
+  position: absolute;
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+  z-index: 1001;
+  background-image: url("img/dog_pic.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  top: 232px;
+  left: 242px;
+}
+
+.product_name{
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.rating-mini {
+	display: inline-block;
+	font-size: 0;
+  margin-bottom: 15px;
+}
+.rating-mini span {
+	padding: 0;
+	font-size: 13px;
+	line-height: 1;
+	color: lightgrey;
+}
+.rating-mini > span:before {
+	content: '★';
+}
+.rating-mini > span:before {
+	content: '★';
+}
+.rating-mini > span.active {
+	color: #E77E42;
+}
+
+.number_of_products{
+  font-size: 12px;
+}
+
+.price_button{
+  position: block;
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+  z-index: 1001;
+  background-image: url("img/price.png");
+  background-position: center;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  padding: 0px;
+}
+.price_block{
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.old_price{
+  opacity: 60%;
+  display: block;
+  font-weight: 600;
+}
+
+.new_price{
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.new_price>li>.line_though{
+  text-decoration: line-through;
+  opacity: 60%;
+}
+
+.new_price>li>.bigger_font{
+  font-size:20px;
+  vertical-align: super;
+  padding-left: 3px;
+}
+
+.bigger_font{
+  font-weight: 700px;
+}
+
+.basket{
+  position: absolute;
+  left: 140px;
+  top: 341px;
+}
+
+
+.basket_button{
+  background-image: url("img/basket.svg");
+  background-position: center;
+  background-size: cover;
+  margin-left: 90px;
+  width: 38px;
+  height: 38px;
+  border: none;
+  border-radius: 50%;
+  padding: 2px;
+  transition: all .2s linear;
+  background-color: white;
+}
+
+.basket_button:hover{
+  box-shadow: 0 3px 3px #E7E7E7;
+  opacity: 100%;
+}
