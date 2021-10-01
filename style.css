@@ -74,6 +74,7 @@ body{
   top: 10px;
   z-index: 1000;
   transition: all .2s linear;
+  cursor: pointer;
 }
 
 .button:hover{
@@ -100,6 +101,7 @@ body{
   height: 40px;
   top: 232px;
   left: 242px;
+  cursor: pointer;
 }
 
 .product_name{
@@ -199,6 +201,7 @@ body{
   padding: 2px;
   transition: all .2s linear;
   background-color: white;
+  cursor: pointer;
 }
 
 .basket_button:hover{
